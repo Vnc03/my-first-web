@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 90px;
+    
+  }
+  
+  #header a {
+    text-decoration: none;
+    color: black;
+  }
+  #header .logo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  #header nav a {
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  #header nav a.active {
+    color: red;
+  }
+  #header nav a:hover {
+    color: red;
+
+
+
+
+  }
+  #banner img {
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  #banner .box-container {
+    position: relative;
+  }
+  #banner .box-container .content {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    transform: translate(0, -50%);
+  }
+  #banner .box-container .content .title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  #banner .box-container .content .heading {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  #banner .box-container .content .heading span {
+    color: red;
+    font-weight: 900;
+  }
+  #banner .box-container .content .desc {
+    font-size: 20px;
+    color: white;
+    margin: 20px 0;
+  }
+  
